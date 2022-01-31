@@ -82,3 +82,18 @@
     3) Reliability Block Diagram (597-603)
     4) Failure rate (604-607)
 
+# Notes
+
+## Modèle exponentiel
+
+$$R=(1-F)\qquad F=(1-R)$$
+$$R=e^{-\lambda t}$$
+Attention $\lambda$ en $1/h$
+
+### Mise en série
+
+$$R'=R_1\cdot R_2$$
+
+### Mise en parralèle
+
+$$R'=1-((1-R_1)\cdot (1-R_2))$$
