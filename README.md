@@ -87,13 +87,13 @@
 ## Modèle exponentiel
 
 $$R=(1-F)\qquad F=(1-R)$$
-$$R=e^{-\lambda t}$$
+$$R=e^{-\lambda t}$$ (expo)
 Attention $\lambda$ en $1/h$
 
 ### Mise en série
 
 $$R'=R_1\cdot R_2$$
 
-### Mise en parralèle
+### Mise en parallèle
 
 $$R'=1-((1-R_1)\cdot (1-R_2))$$
